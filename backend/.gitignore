@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+env/
+
+# Models (large files)
+*.bin
+*.pt
+*.pth
+models/
+
+# Cache
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Local environment
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
