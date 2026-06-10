@@ -35,17 +35,29 @@ App opens on http://localhost:5173
 ## Project Structure
 
 DataShield/
+
 ├── backend/
+
 │   ├── main.py
+
 │   ├── slm_processor.py
+
 │   ├── file_processor.py
+
 │   ├── requirements.txt
+
 │   └── .env
+
 ├── frontend/
+
 │   ├── index.html
+
 │   ├── app.js
+
 │   ├── vite.config.js
+
 │   └── package.json
+
 └── README.md
 
 ## Technology Stack
