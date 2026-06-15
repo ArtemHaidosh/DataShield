@@ -101,22 +101,39 @@ file: binary file (PDF, DOCX, TXT)
 
 ## Project Structure
 DataShield/
+
 ├── backend/
+
 │   ├── main.py                 # FastAPI application
+
 │   ├── slm_processor.py        # NER + regex anonymization
+
 │   ├── file_processor.py       # PDF/DOCX/TXT parsing
+
 │   ├── requirements.txt        # Python dependencies
+
 │   ├── .env                    # Environment config
+
 │   ├── .gitignore
+
 │   └── README.md
+
 ├── frontend/
+
 │   ├── index.html              # HTML structure
+
 │   ├── app.js                  # Vue 3 component
+
 │   ├── vite.config.js          # Vite configuration
+
 │   ├── package.json            # Node dependencies
+
 │   ├── .gitignore
+
 │   └── README.md
+
 ├── .gitignore
+
 └── README.md
 
 ## How It Works
