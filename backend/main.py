@@ -93,4 +93,4 @@ async def anonymize(file: UploadFile = File(...)):
 if __name__ == "__main__":
     port = int(os.getenv("BACKEND_PORT", 8000))
     print(f"\n🚀 Starting DataShield API on port {port}\n")
-    uvicorn.run(app, host="0.0.0.0", port=port, reload=True)
+    uvicorn.run(app, host="0.0.0.0", port=port)
